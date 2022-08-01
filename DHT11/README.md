@@ -1,4 +1,4 @@
-micropython has DHT11/DHT22 driver, So you can access DHT11/DHT22 without any extra drivers.
+micropython has DHT11/DHT22 driver, So you can access DHT11/DHT22 directly without any extra drivers(libraries).
   
 -------------------------------------------------------------
 
