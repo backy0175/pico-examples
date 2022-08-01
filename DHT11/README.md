@@ -9,8 +9,6 @@ Reference:
 
 micropython は DHT11/DHT22 のドライバが内蔵されていて、別途ライブラリを追加することなく直接 DHT11/DHT22 にアクセスできます
 
-
--------------------------------------------------------------
   
 参考:  
 ["13. 温度と湿度 — MicroPython 1.19.1 ドキュメント"](https://micropython-docs-ja.readthedocs.io/ja/latest/esp8266/tutorial/dht.html?highlight=dht11)
