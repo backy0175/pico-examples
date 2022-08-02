@@ -30,3 +30,4 @@ Files:
 - rgbLEDs.py : Extend micropython basic class 'NeoPixel' to support some useful functions  
 - ledPatterns.py : Extend rgbLEDs to support some LED patterns  
 - simple-demo.py : Simple demo  
+- simple-demo2.py : LED patterns demo
