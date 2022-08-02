@@ -69,8 +69,8 @@ class rgbLEDs(NeoPixel):
         """Shift LED Color ClockWise or Counter ClockWise
 
         Args:
-            bCW (bool): True  = Shift ClockWise
-                        False = Shift Counter ClockWise
+            bCW (bool): True  = Shift ClockWise (forward)
+                        False = Shift Counter ClockWise (backward)
         """
         if bCW:
             temp = self[self.n -1]
