@@ -22,3 +22,11 @@ micropython は NeoPixel(RGB LED, WS2812) のドライバが内蔵されてい�
 ["RP2 用クイックリファレンス — MicroPython 1.19.1 ドキュメント"](https://micropython-docs-ja.readthedocs.io/ja/latest/rp2/quickref.html)
 
 ["Raspberry Pi Pico で NeoPixel(RGB LED) をピカピカさせてみた: バッキーの日々是爆食"](https://backy0175.seesaa.net/article/490246974.html)
+  
+  
+-------------------------------------------------------------
+  
+Files:  
+- rgbLEDs.py : Extend micropython basic class 'NeoPixel' to support some useful functions  
+- ledPatterns.py : Extend rgbLEDs to support some LED patterns  
+- simple-demo.py : Simple demo  
