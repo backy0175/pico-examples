@@ -73,16 +73,19 @@ class rgbLEDs(NeoPixel):
                         False = Shift Counter ClockWise (backward)
         """
         if bCW:
-            temp = self[self.n -1]
-            for i in reversed(range(self.n -1)):
-                self[i+1] = self[i]
-            self[0] = temp
+            # temp = self[self.n -1]
+            # for i in reversed(range(self.n -1)):
+            #    self[i+1] = self[i]
+            # self[0] = temp
+            offset = (self.n - 1) * self.bpp
+            self.buf = self.buf[last:] + self.buf[:last]
         else:
-            temp = self[0]
-            for i in range(self.n -1):
-                self[i] = self[i+1]
-            self[i+1] = temp
-
+            # temp = self[0]
+            # for i in range(self.n -1):
+            #    self[i] = self[i+1]
+            #self[i+1] = temp
+            self.buf = self.buf[self.bpp:] + self.buf[:self.bpp]
+            
         
     def off(self):
         """Turn off all LEDs"""
